@@ -1,3 +1,4 @@
-let randNum = Math.floor((Math.random()*6) + 1);
-
-console.log(randNum);
+document.querySelector('.rollDice').addEventListener('click', function(){
+    let diceNumber = Math.floor((Math.random()*6) + 1);
+    document.getElementById("dicePic").src = `./images/dice-${diceNumber}.png`
+});
