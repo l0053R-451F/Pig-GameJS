@@ -15,3 +15,100 @@ body {
     align-items: center;
     justify-content: center;
   }
+main{
+    position: relative;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(200px);
+    filter: blur();
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+}
+main .playerOne{
+    padding-top: 10%;
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    padding-bottom: 5%;
+    
+}
+.name{
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 300;
+}
+
+.score{
+    font-size: 8rem;
+    font-weight: 300;
+    color: #c7365f;
+    padding-bottom: 30%;
+}
+
+main .playerTwo{
+    padding-top: 10%;
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 5%;
+    
+}
+.scoreCard{
+    background-color: #c7365f;
+    opacity: 0.8;
+    border-radius: 9px;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.75s;
+}
+.middleSec{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 20%;
+    flex-direction: column;
+}
+.btn{
+    color: #444;
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 400;
+    transition: all 0.2s;
+  
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+  
+    padding: 0.7rem 2.5rem;
+    border-radius: 50rem;
+    box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+.dice{
+    margin-top: 40%;
+    height: 10rem;
+    width: 10rem;
+}
+
+.rollDice{
+    margin-top: 70%;
+}
+.hold{
+    margin-top: 20%;
+}
